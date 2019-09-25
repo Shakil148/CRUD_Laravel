@@ -29,7 +29,7 @@
             <td>{{$contact->city}}</td>
             <td>{{$contact->country}}</td>
             <td>
-                <a href="{{ route('user.edit',$contact->id)}}" class="btn btn-primary">Edit</a>
+                <a href="{{ route('user.edit',$contact->id)}}" class="btn btn-success">Edit</a>
             </td>
             <td>
                 <form action="{{ route('user.destroy', $contact->id)}}" method="post">
